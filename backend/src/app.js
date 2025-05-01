@@ -17,7 +17,7 @@ app.use(express.urlencoded({ limit: "40kb", extended: true }));
 
 const start = async () => {
     const connectionDB = await mongoose.connect(
-      "mongodb+srv://akankshaanand2512:micro2512@cluster0.uumckh1.mongodb.net/"
+      
     );
     console.log(`Mongo connected, DB Host: ${connectionDB.connection.host}`);
     
