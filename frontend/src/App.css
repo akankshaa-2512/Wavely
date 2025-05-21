@@ -1,0 +1,105 @@
+.landingPageContainer{
+    width: 100vw;
+    height: 100vh;
+    background: url("/public/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.landingPageContainer nav{
+    display: flex;
+    padding-inline: 1.2rem;
+    padding-block: 1.6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navHeader{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.navHeader img{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.navHeader nav h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    
+}
+
+.navList {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.navList p, .navList div {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    font-weight: bold; 
+    color: white; 
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.navList p:hover, .navList div:hover {
+    background-color: rgb(255, 182, 193); 
+    color: black;
+}
+
+.landingMainContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding-inline: 3rem;
+    padding-top: 28vh;
+}
+
+.landingMainContainer h1 span{
+    color: rgb(252, 137, 194);
+}
+
+.landingMainContainer h2{
+    color: rgb(116, 190, 251);
+    font-size: 2.5rem;
+    padding-left: 2em;
+}
+
+.landingMainContainer h3 {
+    font-size: 2.3rem;
+    padding-left: 7rem;
+}
+
+.landingMainContainer h1 {
+    font-size: 2.8rem;
+}
+
+.btn{
+    background-color: white;
+    width: fit-content;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    margin-left: 10rem;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-link{
+    text-decoration: none;
+    color: rgb(34, 148, 241);
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+
